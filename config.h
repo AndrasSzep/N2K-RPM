@@ -50,8 +50,8 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define INTERRUPT_pin 5  //for the RPM counter
 
 // Replace with your network credentials 
-const char* ssid = "HUAWEI-ED42-KNYAZ";  // Enter SSID here
-const char* password = "RussianRacingClub";  //Enter Password here
+const char* ssid = "ssid";  // Enter SSID here
+const char* password = "password";  //Enter Password here
 
 // CAN BUS
 #define ESP32_CAN_TX_PIN GPIO_NUM_17  //TX2 Set CAN TX GPIO15 =  D8
@@ -112,6 +112,6 @@ int buttonState = 0;         // variable for reading the pushbutton status
 /************************* Adafruit.io Setup *********************************/
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "sekom"
-#define AIO_KEY         "aio_EsFq05Y3n3dn1E5RVaE4Qe0j1L7g"
+#define AIO_USERNAME    "aio_username"
+#define AIO_KEY         "aio_key"
 #endif
